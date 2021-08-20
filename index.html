@@ -19,9 +19,57 @@
         <p>Age</p>
         <input type="number" placeholder="Enter your age" id="number" min="16" max="100">
         <p>Which option best describes your current role?</p>
-        <select name="" id=""><option value="Student"></option><option value="Full time job"></option></select>
-
-
+        <select name="" id="dropdown">
+            <option value="Student">Student</option>
+            <option value="Full time job">Full time job</option>
+        </select>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</input
+            ><br></label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</input
+            ><br></label
+          >
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</input
+            ><br></label
+          >
+        <p>What would you like to see improved?</p>
+        <label>
+            <input name="prefer" type="checkbox" value="frontend-projects">Front end projects</input><br>
+        </label>
+        <label>
+            <input name="prefer" type="checkbox" value="backend-projects">Back end projects</input><br>
+        </label>
+        <label>
+            <input name="prefer" type="checkbox" value="data-visualization">Data visualization</input><br>
+        </label>
+        <p>Any comments or suggestions?</p>
+        <div class="textarea">
+            <textarea name="comments" id="textarea" cols="30" rows="10"></textarea><br>
+        </div>
+        <div class="button-area">
+            <button id="submit-button" type="submit">submit</button>
+        </div>
+        
     </form>
     
 </body>

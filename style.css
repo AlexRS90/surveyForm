@@ -1,7 +1,27 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(120, 99, 212);
+    text-align: center;
+    margin: 200, 0, 0, 0;
+    margin-bottom: 0.5rem;
 }
 h1{
     font-size: 30px;
     font-family: monospace;
+}
+
+#survey-form {
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+
+.textarea {
+    margin-bottom: 100;
+}
+
+.button-area {
+    margin-top: 150;
+}
+
+#submit-button {
+    margin-top: 100;
 }
